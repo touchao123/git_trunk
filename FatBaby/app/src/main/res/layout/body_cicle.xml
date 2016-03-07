@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginTop="100dp">
+    <com.example.andrewliu.fatbaby.BodyCirleShow.BodyProgress
+        android:id="@+id/bodyProgress"
+        android:layout_width="325dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:clickable="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+
+
+        android_custom:diffColor="#010101"
+        android_custom:broundColor="#AAD1D1D1"
+        android_custom:broundProgressColor="#55DDAA55"
+        android_custom:btextColor="#9A32CD"
+        android_custom:btextIsDisplayable="true"
+        android_custom:broundWidth="30dip"
+        android_custom:btextSize="30sp" />
+
+</RelativeLayout>
