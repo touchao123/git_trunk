@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FatBaby.iml" filepath="$PROJECT_DIR$/FatBaby.iml" />
       <module fileurl="file://$PROJECT_DIR$/FoldingNavigation/FoldingNavigation.iml" filepath="$PROJECT_DIR$/FoldingNavigation/FoldingNavigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu/library/SlidingMenu_library.iml" filepath="$PROJECT_DIR$/SlidingMenu/library/SlidingMenu_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
