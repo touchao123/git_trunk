@@ -5,10 +5,10 @@
     xmlns:android_custom="http://schemas.android.com/apk/res-auto">
 
     <com.example.andrewliu.fatbaby.progressbar.CircleProgressBar
-        android:id="@+id/roundProgressBar2"
+        android:id="@+id/roundProgressBar21111"
         android:layout_width="80dip"
         android:layout_height="80dip"
-        android:layout_alignLeft="@+id/roundProgressBar1"
+        android:layout_alignLeft="@+id/roundProgressBar111"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="78dp"
 
