@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/baseinfobg">
+	<include
+		layout="@layout/dayhead"
+		android:id="@+id/history">
+	</include>
+	<include
+		layout="@layout/body_cicle"
+		android:id="@+id/today">
+	</include>
+</RelativeLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+	<!--android:layout_width="match_parent"-->
+	<!--android:layout_height="match_parent"-->
+	<!--android:background="@drawable/baseinfobg"">-->
+	<!--<include-->
+		<!--android:id="@+id/history"-->
+		<!--layout="@layout/dayhead">-->
+	<!--</include>-->
+	<!--<include-->
+		<!--android:id="@+id/today"-->
+		<!--layout="@layout/body_cicle"-->
+		<!--android:layout_below="@+id/history"-->
+		<!--android:layout_width="fill_parent"-->
+		<!--android:layout_alignParentBottom="true"-->
+		<!--android:layout_height="200dp">-->
+
+	<!--</include>-->
+<!--</RelativeLayout>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/ly_main_weixin"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="#fcfcfc"-->
+    <!--android:orientation="vertical" >-->
+
+   	<!--<TextView -->
+   	    <!--android:layout_width="fill_parent"-->
+   	    <!--android:layout_height="0dp"-->
+   	    <!--android:layout_weight="1"-->
+   	    <!--android:gravity="center"-->
+   	    <!--android:text="this is first tab !"-->
+   	    <!--android:textColor="#000000"-->
+   	    <!--android:textSize="30sp"-->
+   	    <!--/>-->
+
+<!--</LinearLayout>-->

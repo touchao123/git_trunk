@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/niu"
         android:label="FatBaby"
-        android:logo="@mipmap/ic_launcher"
+        android:logo="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
