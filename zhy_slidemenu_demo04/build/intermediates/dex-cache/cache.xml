@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\tliu3\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\tliu3\Documents\GitHub\git_trunk\zhy_slidemenu_demo04\zhy_slidemenu_demo04\build\intermediates\pre-dexed\debug\support-v4-18.0.0_010c18c1946fd51f9c682f91df44fd603deca353.jar" />
+    </item>
+    <item
+        jar="C:\Users\tliu3\Documents\GitHub\git_trunk\zhy_slidemenu_demo04\zhy_slidemenu_demo04\build\intermediates\exploded-aar\zhy_slidemenu_demo04\slidelibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77bafffc2f9584933db6375e0e929bbdc180ffec">
+        <dex dex="C:\Users\tliu3\Documents\GitHub\git_trunk\zhy_slidemenu_demo04\zhy_slidemenu_demo04\build\intermediates\pre-dexed\debug\zhy_slidemenu_demo04-slidelibrary-unspecified_7ff9bf1918da558d38c2aa41d1fc4d7d2892cacd.jar" />
+    </item>
+
+</items>
