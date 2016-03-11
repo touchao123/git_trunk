@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ly_main_weixin"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/baseinfobg"
-    android:orientation="vertical" >
-    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 
-   	<TextView 
-   	    android:layout_width="fill_parent"
-   	    android:layout_height="0dp"
-   	    android:layout_weight="1"
-   	    android:gravity="center"
-   	    android:text="this is second tab !"
-   	    android:textColor="#000000"
-   	    android:textSize="30sp"
-   	    />
+<com.tuesda.walker.circlerefresh.CircleRefreshLayout
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	app:AniBackColor="#ff8b90af"
+	app:AniForeColor="#ffffffff"
+	app:CircleSmaller="6"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/refresh_tab02">
+	<ListView
+		android:id="@+id/list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/baseinfobg"
+		></ListView>
+</com.tuesda.walker.circlerefresh.CircleRefreshLayout>
 
-    
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Stop Refreshing"
+		android:id="@+id/stop_refresh"
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true" />
 
-</LinearLayout>
+</RelativeLayout>
