@@ -15,9 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setLogo(R.drawable.actionbar);
-        actionBar.setDisplayUseLogoEnabled(true);
+        actionBar.hide();
+//        actionBar.setDisplayShowHomeEnabled(true);
+//        actionBar.setLogo(R.drawable.actionbar);
+//        actionBar.setDisplayUseLogoEnabled(true);
         setContentView(R.layout.activity_main);
         login();
     }

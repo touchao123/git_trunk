@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/baseinfobg">
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="45dp"
-        android:background="@drawable/title_bar" >
+        android:background="#0000ff" >
 
         <ImageButton
             android:id="@+id/id_iv_left"
@@ -26,7 +25,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
-            android:text="微信"
+            android:text="FatBaby"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -42,18 +41,14 @@
             android:background="@drawable/showleft_selector" />
     </RelativeLayout>
 
-    <include
-        layout="@layout/dayhead"
-        android:id="@+id/dayhead"></include>
-    <include
-        layout="@layout/body_cicle"
-        android:id="@+id/today"></include>
+
     <android.support.v4.view.ViewPager
         android:id="@+id/id_viewpager"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:background="@drawable/baseinfobg">
+        android:layout_marginTop="0dp">
+
     </android.support.v4.view.ViewPager>
 
 </LinearLayout>

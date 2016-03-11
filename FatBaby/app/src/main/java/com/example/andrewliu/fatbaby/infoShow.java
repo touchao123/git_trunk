@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
@@ -22,8 +23,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class infoShow extends SlidingFragmentActivity {
-    CircleProgressBar pb1,pb2,pb3,pb4,pb5;
-    BodyProgress mBodyProgress;
 
 
     private ViewPager mViewPager;
@@ -38,33 +37,15 @@ public class infoShow extends SlidingFragmentActivity {
         // 初始化SlideMenu
         initRightMenu();
         // 初始化ViewPager
-        initViewPager();
+        initViewPager();  //
 
-        pb1=(CircleProgressBar)findViewById(R.id.roundProgressBar1);
-        setProgressBarProgress(pb1,30,"day 1");
-        pb2=(CircleProgressBar)findViewById(R.id.roundProgressBar2);
-        setProgressBarProgress(pb2,40,"day 2");
-        pb3=(CircleProgressBar)findViewById(R.id.roundProgressBar3);
-        setProgressBarProgress(pb3,50,"day 3");
-        pb4=(CircleProgressBar)findViewById(R.id.roundProgressBar4);
-        setProgressBarProgress(pb4,60,"day 4");
-        pb5 = (CircleProgressBar)findViewById(R.id.roundProgressBar5);
-        setProgressBarProgress(pb5,70,"day 5");
 
-        mBodyProgress=(BodyProgress)findViewById(R.id.bodyProgress);
-        setBodyProgress(mBodyProgress,60,"加油哦");
 
     }
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
-    }
-    public void setProgressBarProgress(CircleProgressBar pb,int progress,String text){
-        pb.updateProgressText(progress, text);
-    }
-    public void setBodyProgress(BodyProgress bp, int progress, String text){
-        bp.updateProgressText(progress,text);
     }
     private void initViewPager()
     {

@@ -3,14 +3,18 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:background="@drawable/baseinfobg">
-	<!--<include-->
-		<!--layout="@layout/dayhead"-->
-		<!--android:id="@+id/history">-->
-	<!--</include>-->
-	<!--<include-->
-		<!--layout="@layout/body_cicle"-->
-		<!--android:id="@+id/today">-->
-	<!--</include>-->
+	<include
+		layout="@layout/dayhead"
+		android:id="@+id/dayhead"></include>
+	<include
+		layout="@layout/body_cicle"
+		android:id="@+id/today"
+		android:layout_width="300dp"
+		android:layout_height="430dp"
+		android:layout_marginLeft="25dp"
+		android:layout_below="@+id/dayhead"
+		android:layout_alignParentStart="true">
+	</include>
 </RelativeLayout>
 <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
 	<!--android:layout_width="match_parent"-->
