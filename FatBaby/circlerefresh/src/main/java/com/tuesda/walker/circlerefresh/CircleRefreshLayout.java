@@ -6,6 +6,7 @@ import android.content.res.TypedArray;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.MotionEvent;
@@ -253,6 +254,26 @@ public class CircleRefreshLayout extends FrameLayout {
         }
         mIsRefreshing = false;
         mHeader.setRefreshing(false);
+        {
+
+            float height = mChildView.getTranslationY();
+            ValueAnimator backTopAni = ValueAnimator.ofFloat(height, 0);
+            backTopAni.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                @Override
+                public void onAnimationUpdate(ValueAnimator animation) {
+                    float val = (float) animation.getAnimatedValue();
+                    val = decelerateInterpolator.getInterpolation(val / mHeaderHeight) * val;
+                    if (mChildView != null) {
+                        mChildView.setTranslationY(val);
+                    }
+                    mHeader.getLayoutParams().height = (int) val;
+                    mHeader.requestLayout();
+                }
+            });
+            backTopAni.setDuration((long) (height * BACK_TOP_DUR / mHeaderHeight));
+            backTopAni.start();
+        }
+
     }
 
     private OnCircleRefreshListener onCircleRefreshListener;
