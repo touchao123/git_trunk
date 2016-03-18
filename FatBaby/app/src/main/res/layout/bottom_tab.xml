@@ -18,8 +18,8 @@
         android:layout_alignParentBottom="true" >
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#555555"
+            android:layout_height="80dp"
+            android:background="#55555555"
             android:orientation="horizontal">
             <!--动态-->
             <FrameLayout
@@ -32,13 +32,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|top"
-                    android:background="@drawable/ldg"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center|bottom"
-                    android:text="test1"
-                    android:textSize="12sp"/>
+                    android:src="@drawable/ldg"/>
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center|bottom"-->
+                    <!--android:text="test1"-->
+                    <!--android:textSize="12sp"/>-->
             </FrameLayout>
             <!-- 与我相关 -->
 
@@ -54,13 +54,13 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|top"
                     android:src="@drawable/ldg" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center|bottom"
-                    android:text="test2"
-                    android:textColor="@android:color/black"
-                    android:textSize="12sp" />
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center|bottom"-->
+                    <!--android:text="test2"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="12sp" />-->
             </FrameLayout>
             <!-- 留白 -->
 
@@ -84,13 +84,13 @@
                     android:layout_gravity="center_vertical|top"
                     android:src="@drawable/ldg" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center|bottom"
-                    android:text="test3"
-                    android:textColor="@android:color/black"
-                    android:textSize="12sp" />
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center|bottom"-->
+                    <!--android:text="test3"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="12sp" />-->
             </FrameLayout>
 
             <!-- 玩吧 -->
@@ -108,13 +108,13 @@
                     android:layout_gravity="center_vertical|top"
                     android:src="@drawable/ldg" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center|bottom"
-                    android:text="test4"
-                    android:textColor="@android:color/black"
-                    android:textSize="12sp" />
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center|bottom"-->
+                    <!--android:text="test4"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="12sp" />-->
             </FrameLayout>
         </LinearLayout>
         <LinearLayout
