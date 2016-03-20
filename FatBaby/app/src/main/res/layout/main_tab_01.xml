@@ -2,7 +2,8 @@
 	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
-	android:background="@drawable/baseinfobg">
+	android:background="@drawable/baseinfobg"
+	android:id="@+id/main_tab_01">
 	<include
 		layout="@layout/dayhead"
 		android:id="@+id/dayhead"></include>
@@ -15,10 +16,10 @@
 		android:layout_below="@+id/dayhead"
 		android:layout_alignParentStart="true">
 	</include>
-	<include
-		layout="@layout/bottom_tab"
-		android:id="@+id/buttom_tab"
-		></include>
+	<!--<include-->
+		<!--layout="@layout/bottom_tab"-->
+		<!--android:id="@+id/buttom_tab"-->
+		<!--></include>-->
 </RelativeLayout>
 <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
 	<!--android:layout_width="match_parent"-->
