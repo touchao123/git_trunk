@@ -8,6 +8,7 @@ import android.graphics.Path;
 import android.graphics.PointF;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -153,7 +154,6 @@ public class AnimationView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
         switch (mAniStatus) {
             case PULL_DOWN:
                 canvas.drawRect(0, 0, mWidth, mHeight, mBackPaint);
@@ -319,7 +319,6 @@ public class AnimationView extends View {
         }
         if (!mIsRefreshing) {
             applyDone();
-
         }
 
     }
@@ -492,7 +491,6 @@ public class AnimationView extends View {
             }
             return 1;
         }
-
         float ratio = (System.currentTimeMillis() - mDoneStart) / (float) DONE_DUR;
         return Math.min(ratio, 1);
     }

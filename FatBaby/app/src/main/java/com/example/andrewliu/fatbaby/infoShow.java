@@ -74,6 +74,7 @@ public class infoShow extends SlidingFragmentActivity {
             }
         };
         mViewPager.setAdapter(mAdapter);
+        mViewPager.setCurrentItem(1);
     }
 
     private void initRightMenu()
